@@ -1,10 +1,10 @@
-#AWS
+# AWS
 
 - Es una plataforma en la nuve de virtualización
 
-##Seguridad
+## Seguridad
 
-###Identity and Access Management (IAM)
+### Identity and Access Management (IAM)
 
 - los PRINCIPIOS especifican a QUIÉNES se les otorgan permisos.
 - las ACCIONES especifican QUÉ es lo que se debe realizar.
@@ -18,6 +18,7 @@ El modelo zero trust a IAM significa adoptar el principio de mínimo privilegio.
 - IAM evalúa el acceso en función de la evaluación de todos los tipos de políticas aplicables a un determinado recurso.
 
 ###Seguridad en la red
+
 La seguridad de la red abarca cualquier sistema, configuración o proceso que salvaguarde el acceso, la capacidad de uso y los recursos accesibles de la red.
 
 Un enfoque de zero trust en la seguridad de la red implica un enfoque de defensa en profundidad que aplica controles de seguridad en todas las capas de la red
