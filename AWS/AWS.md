@@ -3,7 +3,9 @@
 - Es una plataforma en la nuve de virtualización
 
 ##Seguridad
+
 ###Identity and Access Management (IAM)
+
 - los PRINCIPIOS especifican a QUIÉNES se les otorgan permisos.
 - las ACCIONES especifican QUÉ es lo que se debe realizar.
 - los RECURSOS especifican CUÁLES son las propiedades que se tienen que acceder.
@@ -24,5 +26,15 @@ Un enfoque de zero trust en la seguridad de la red implica un enfoque de defensa
 - Subredes: una serie de direcciones IP dentro de su VPC
 - Tablas de enrutamiento: un conjunto de reglas que determinan hacia dónde se dirige el tráfico
 - Gateway de Internet: un componente que permite la comunicación entre los recursos dentro de su VPC e Internet
+
+Los grupos de seguridad son firewalls virtuales que puede utilizar a fin de controlar el tráfico que entra y sale de su recurso.
+
+Además de las VPC, también puede utilizar AWS Web Application Firewall (WAF) para restringir aún más el tráfico en la red.
+
+*Resumen*
+- La seguridad de la red incluye mecanismos diseñados con el fin de salvaguarde el acceso, la capacidad de uso y los recursos accesibles de la red
+- Un enfoque de zero trust en la seguridad de la red consiste en implementar una defensa en profundidad en todas sus capas
+- VPC y WAF permiten aplicar medidas de seguridad a nivel de la red
+Los grupos de seguridad permiten aplicar medidas de s- eguridad a nivel de recursos
 
 
