@@ -17,7 +17,7 @@ El modelo zero trust a IAM significa adoptar el principio de mínimo privilegio.
 - IAM tiene varios tipos de políticas: las basadas en identidades y las basadas en recursos, por ejemplo
 - IAM evalúa el acceso en función de la evaluación de todos los tipos de políticas aplicables a un determinado recurso.
 
-###Seguridad en la red
+### Seguridad en la red
 
 La seguridad de la red abarca cualquier sistema, configuración o proceso que salvaguarde el acceso, la capacidad de uso y los recursos accesibles de la red.
 
