@@ -1,4 +1,4 @@
-# Servidor web escalabel con Drupla 8
+# Servidor web escalable con Drupal y Lightsail
 
 ## 1. Crear una instancia en Lightsail  
 1. Elegir **Crear instancia** en la pestaña de  **Instancias** de la página principal
