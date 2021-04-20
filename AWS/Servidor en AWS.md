@@ -121,16 +121,17 @@
 - Ir a la dirección pública de la instancia y abrir *Drupal*
     > http://ec2-X-X-X-X.eu-west-3.compute.amazonaws.com/drupal
     - Cambiar las **X** por los números correspondientes
-- Acceder al *asistente de configuración de Drupal*
-- Elegir el *idioma* y pulsar **Save and continue**
+- Acceder al **asistente de configuración de Drupal**
+- Elegir el **idioma** y pulsar **Save and continue**
 - Elegir la opción **Estándar** y pulsar **Guardar y continuar**
 - Configurar la base de datos
-    - Escribir **drupal**
-    - Escribir el usuario de la base de datos **drupal**
-    - Escribir la contraseña de la **drupal_pass**
-    - En configuración avanzada
-    - Escribir el **endpoint** de la base de datos
-- 
+    - En **Tipo de Base de datos** elegir **MySQL**
+    - En **Nombre de la base de datos** escribir **drupal**
+    - En **Usuario de la base de datos** escribir el usuario de **MySQL**
+    - En **Contraseña de la base de datos** escribir la contraseña de **MySQL**
+    - Entrar en **Opciones avanzadas**  
+    - En el **Host** escribir el **endpoint** de la base de datos
+    - Pulsar en **Guardar y continuar**
 
 
 ---
