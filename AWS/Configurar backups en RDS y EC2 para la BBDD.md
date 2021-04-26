@@ -66,6 +66,21 @@ Una política de ciclo de vida consta de estas configuraciones básicas:
 - Seleccionar **Indormación de etiquetado** y **Añadir una etiqueta**
 - Dejar las opciones por defecto y pulsar en **Crear politica**
 
+## Restaurar instantanea
+- En la consola de **AWS** ir a **Instantáneas**
+- Seleccinar la instantánea a restaurar
+- Pulsar en **Acciones** y después en **Crear imagen**
+- Escribir el nombre de la imagen, y una descrpción
+- En el panel de **AWS** ir a **Imagenes**
+- Seleccionar la imagen creada y en **acciones** pulsar **lanzar**
+- Seleccionar **tipo de instancia** (t2.micro)
+- En **Página Configure Security Group** 
+    - Modificar el **Nombre de seguridad**
+    - Modificar el **SSH**, en **Origen** seleccionar **Mi IP**
+    - **Añadir regla**, seleccionar **HTTP** y en **Origen** seleccionar **Cualquier lugar**
+- Pulsar en **Revisar y lanzar**
+- Comprobar los datos y pulsar en **Lanzar**
+- Seleccionar **Elegir un par de claves existentes**, elegir el par del claves, marcar la confirmación de que se tiene acceso a las llaves y pulsar en **Lanzar instancias**
 
 
 
@@ -76,3 +91,4 @@ Una política de ciclo de vida consta de estas configuraciones básicas:
 # Bibliografía
 - [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-lifecycle.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-lifecycle.html)
 - [https://aws.amazon.com/es/blogs/storage/automating-amazon-ebs-snapshots-management-using-data-lifecycle-manager/](https://aws.amazon.com/es/blogs/storage/automating-amazon-ebs-snapshots-management-using-data-lifecycle-manager/)
+- [https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/ebs-fast-snapshot-restore.html](https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/ebs-fast-snapshot-restore.html)
