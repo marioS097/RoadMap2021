@@ -46,7 +46,7 @@
 - Ir a **Editar grupos de seguridad**
 - Cambiar el nombre del grupo de seguridad en el cuadro **Nombre del grupo de seguridad**. En este caso le pondremos el nombre **Drupal** para que sea más facil de encontrar
 - Por defecto ya viene una regla SSH que permite el acceso desde cualquier IP. En la columna de **Origen** seleccionar **Mi IP**
-- Agregar una nueva regla para permitir el tráfico HTTP. Pulsar en **Agregar regla**
+- Agregar una nueva regla para permitir el tráfico **HTTP**. Pulsar en **Agregar regla**
 - Para la nieva regla. En la columna de **Tipo** seleccionar **HTTP** (Los valores se rellenarán automaticamente)
 - Pulsar **Revisar y lanzar** para continuar
 ## 4. Lanzar y obtener clave SSH
