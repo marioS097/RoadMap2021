@@ -26,9 +26,20 @@
 ## 6. Revisar
 - Comprobar que todo sea correcto
 - Pulsar en **Crear**
-
+--- 
+## Añadir el puerto de escucha 443
+- En la consola de **AWS** ir al **Balanceador de carga**
+- Seleccionar el *balanceador de carga* e ir a la pestaña de **Agentes de escucha**
+- Pulsar en **Agregar agente de escucha** 
+- En **Protocolo** seleccionar el **HTTPS:443**
+- En **Acciones predeterminadas** pulsar en **Agregar acción** y seleccionar la opción **Reenviar a...**. En Grupo de destino seleccionar el grupo de destino creado anteriormente.
+- En **Política de seguridad** seleccionar **ELBSecurityPolicy-FS-1-2-Res-2019-08**
+- En **Certificado SSL predeterminado** seleccionar **Desde ACM (recomendado)** y el *DNS* creado.
+- Pulsar en **Agregar agente de escucha**
 
 # Bibliografía
 - [https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-application-load-balancer.html](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-application-load-balancer.html)
 
 - [https://docs.aws.amazon.com/elasticloadbalancing/latest/application/tutorial-application-load-balancer-cli.html](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/tutorial-application-load-balancer-cli.html)
+
+- [https://nadtakan-futhoem.medium.com/aws-load-balancer-503-service-temporarily-unavailable-e1e91c0dfcdb](https://nadtakan-futhoem.medium.com/aws-load-balancer-503-service-temporarily-unavailable-e1e91c0dfcdb)
