@@ -36,6 +36,16 @@
 - En **Política de seguridad** seleccionar **ELBSecurityPolicy-FS-1-2-Res-2019-08**
 - En **Certificado SSL predeterminado** seleccionar **Desde ACM (recomendado)** y el *DNS* creado.
 - Pulsar en **Agregar agente de escucha**
+---
+## Redirigir el puerto 80 al 443
+- En la consola de **AWS** ir a **Bañanceadores de carga**
+- Seleccionar el balanceador e ir a la pestaña **Agentes de escucha**
+- Seleccionar el **agente de escucha** del puerto **HTTP: 80** y después pulsar en **Editar**
+- Pulsar en **+ Agregar acción** y seleccionar **Redirigir a...**
+    - Seleccionar **HTTPS** y escribir **443**
+    - Seleccionar **Usar host, ruta y consulta predeterminados...**
+    - Seleccionar **301 - Movido permanentemente** y pulsar en el *check*
+    - Pulsar en **Actualizar**
 
 # Bibliografía
 - [https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-application-load-balancer.html](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-application-load-balancer.html)
